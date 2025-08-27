@@ -1,0 +1,32 @@
+# Composer dependencies
+/config/vendor/
+/config/composer.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+/pages/error_log
+
+# Cache and temp files
+*.log
+tmp/
+*.tmp
+
+# ZIP and backup files
+/web.zip
+
+# Node/npm (if you use npm for frontend)
+/assets/node_modules/
+/assets/package-lock.json
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Other
+.env
