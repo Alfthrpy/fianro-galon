@@ -19,7 +19,9 @@ jobs:
           php-version: '8.1' # sesuaikan dengan hosting
 
       - name: Install dependencies via Composer
-        run: composer install --no-dev --optimize-autoloader
+        run: |
+          cd config
+          composer install --no-dev --optimize-autoloader
 
       - name: Deploy ke server via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
